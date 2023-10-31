@@ -197,7 +197,7 @@ abstract class Common implements Plugin<Project> {
             doLast {
                 String newVersion = versionUtility.calculateNextQAVersion(currentVersion)
                 buildFileUtility.updateBuildScriptVersion(rootProjectBuildFile, newVersion, 'qa')
-                println "Ja'loja!!!!!"
+                println "Ja'loja 22222222!!!!!"
             }
         }
 
